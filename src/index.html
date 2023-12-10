@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alan Putro Portfolio Web</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="home" class="bg-gradient-main h-fit xl:h-screen">
+      <div class="page-container">
+        <div class="flex-row sm:flex justify-around align-center mb-4">
+          <a
+            href="#home"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >BIO</a
+          >
+          <a
+            href="#project"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >PROJECT</a
+          >
+          <a
+            href="#career"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >CAREER</a
+          >
+          <a
+            href="#contact"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >CONTACT</a
+          >
+        </div>
+        <div class="mt-10">
+          <div class="hidden md:block h-2 bg-gradient-secondary"></div>
+          <div
+            class="flex-row md:grid grid-cols-2 gap-2 custom-border p-2 md:p-10"
+          >
+            <img
+              src="/src/images/image_alan_400x400.jpg"
+              alt="Alan Putro Profile Picture"
+              height="400"
+              width="400"
+              class="mx-auto md:pr-2 lg:pl-8 lg:pr-0 mb-8 md:mb-0 md:order-last rounded-full lg:rounded-none h-48 w-48 md:w-56 md:h-56 lg:w-full lg:h-auto"
+            />
+            <div class="my-2">
+              <h1
+                class="text-5xl font-bold text-palette1 mb-8 text-center md:text-left"
+              >
+                Alan Putro
+              </h1>
+              <h2
+                class="text-2xl italic font-bold mb-8 text-center md:text-left"
+              >
+                Aspiring Software Engineer
+              </h2>
+              <p class="text-justify md:text-left mb-8 md:mb-10">
+                Fuelled by a deep passion for the tech industry, Alan embarked
+                on a career transition journey to software engineering. He
+                equipped himself with strong programming skills acquired through
+                academic and online courses. With two years of experience as a
+                Process Integration Engineer, he excels in problem-solving and
+                team leadership. Eager to contribute these skills and passion to
+                the software engineering field.
+              </p>
+              <a
+                class="btn-primary mb-6 mr-0 md:mr-4"
+                href="https://www.linkedin.com/in/maulana-imam-15b5aa153/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 50 50"
+                  class="fill-current w-8 h-8 mr-2 text-white ml-auto"
+                >
+                  <path
+                    d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+                  ></path>
+                </svg>
+
+                <span class="mr-auto">Connect with me</span>
+              </a>
+              <a
+                class="btn-secondary"
+                href="https://github.com/maulanaimam123"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="100"
+                  height="100"
+                  viewBox="0 0 64 64"
+                  class="fill-current w-8 h-8 mr-2 ml-auto"
+                >
+                  <path
+                    d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"
+                  ></path>
+                </svg>
+                <span class="mr-auto">My Projects</span>
+              </a>
+            </div>
+          </div>
+          <div class="hidden md:block h-2 bg-gradient-secondary"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="h-fit xl:h-screen">
+      <div class="page-container">
+        <h1 class="text-5xl font-bold mb-10 text-palette1">Projects</h1>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 mt-5"
+        >
+          <div class="mb-2 rounded-lg bg-palette3 shadow-lg p-4 flex flex-col">
+            <img
+              class="object-cover aspect-video rounded-lg"
+              src="./images/image-placeholder.png"
+              alt="project image placeholder"
+            />
+            <br />
+            <p class="my-2 font-extrabold text-palette1 text-2xl">
+              Line Analysis Interface
+            </p>
+            <p>
+              A platform for line profile data analysis. Feature: image & file
+              upload, custom drawing, data visualization, etc. Mini-backend for
+              vision-based job.
+            </p>
+            <br />
+            <p class="font-extrabold mt-auto">
+              Technology: React + JS, OpenCV, MaterialsUI, Python, Flask
+            </p>
+            <button
+              class="mt-4 ml-auto rounded-xl h-12 w-12 flex bg-palette2 hover:bg-palette1 group transition ease-in-out delay-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 512 512"
+                class="mx-auto my-auto fill-current text-black group-hover:text-palette4 transition ease-in-out delay-100"
+              >
+                <path
+                  d="M432 320h-32a16 16 0 0 0-16 16v112H64V128h144a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V336a16 16 0 0 0-16-16ZM488 0H360c-21.37 0-32.05 25.91-17 41l35.73 35.73L135 320.37a24 24 0 0 0 0 34L157.67 377a24 24 0 0 0 34 0l243.61-243.68L471 169c15 15 41 4.5 41-17V24a24 24 0 0 0-24-24Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="mb-2 rounded-lg bg-palette3 shadow-lg p-4 flex flex-col">
+            <img
+              class="object-cover aspect-video rounded-lg"
+              src="./images/image-placeholder.png"
+              alt="project image placeholder"
+            />
+            <br />
+            <p class="my-2 font-black text-palette1 text-2xl">Prep-go-where?</p>
+            <p>
+              Full stack web app to track your grocery needs. Feature: user
+              auth, simple recommendation system, real-life external API
+              utilization, etc.
+            </p>
+            <br />
+            <p class="font-extrabold mt-auto">
+              Technology: NextJS, TypeScript, TailwindCSS, Axios, NodeJS,
+              PostgreSQL, MongoDB
+            </p>
+            <button
+              class="mt-4 ml-auto rounded-xl h-12 w-12 flex bg-palette2 hover:bg-palette1 group transition ease-in-out delay-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 512 512"
+                class="mx-auto my-auto fill-current text-black group-hover:text-palette4 transition ease-in-out delay-100"
+              >
+                <path
+                  d="M432 320h-32a16 16 0 0 0-16 16v112H64V128h144a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V336a16 16 0 0 0-16-16ZM488 0H360c-21.37 0-32.05 25.91-17 41l35.73 35.73L135 320.37a24 24 0 0 0 0 34L157.67 377a24 24 0 0 0 34 0l243.61-243.68L471 169c15 15 41 4.5 41-17V24a24 24 0 0 0-24-24Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="mb-2 rounded-lg bg-palette3 shadow-lg p-4 flex flex-col">
+            <img
+              class="object-cover aspect-video rounded-lg"
+              src="./images/image-placeholder.png"
+              alt="project image placeholder"
+            />
+            <br />
+            <p class="my-2 font-black text-palette1 text-2xl">
+              Catch the Words!
+            </p>
+            <p>
+              Fun game inspired by aliens arcade, but instead of shooting aliens
+              the user shoots raining words by typing them. Ready to test how
+              fast you can type? Check the link below!
+            </p>
+            <br />
+            <p class="font-extrabold mt-auto">Technology: HTML, CSS, JS</p>
+            <button
+              class="mt-4 ml-auto rounded-xl h-12 w-12 flex bg-palette2 hover:bg-palette1 group transition ease-in-out delay-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 512 512"
+                class="mx-auto my-auto fill-current text-black group-hover:text-palette4 transition ease-in-out delay-100"
+              >
+                <path
+                  d="M432 320h-32a16 16 0 0 0-16 16v112H64V128h144a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V336a16 16 0 0 0-16-16ZM488 0H360c-21.37 0-32.05 25.91-17 41l35.73 35.73L135 320.37a24 24 0 0 0 0 34L157.67 377a24 24 0 0 0 34 0l243.61-243.68L471 169c15 15 41 4.5 41-17V24a24 24 0 0 0-24-24Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="mb-2 rounded-lg bg-palette3 shadow-lg p-4 flex flex-col">
+            <img
+              class="object-cover aspect-video rounded-lg"
+              src="./images/image-placeholder.png"
+              alt="project image placeholder"
+            />
+            <br />
+            <p class="my-2 font-black text-palette1 text-2xl">
+              Mondrian Painting
+            </p>
+            <p>
+              Beautiful painting made in web using only HTML and CSS. Inspired
+              by abstract art made by Piet Mondrian in 1930.
+            </p>
+            <br />
+            <p class="font-extrabold mt-auto">Technology: HTML and CSS</p>
+            <button
+              class="mt-4 ml-auto rounded-xl h-12 w-12 flex bg-palette2 hover:bg-palette1 group transition ease-in-out delay-100"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 512 512"
+                class="mx-auto my-auto fill-current text-black group-hover:text-palette4 transition ease-in-out delay-100"
+              >
+                <path
+                  d="M432 320h-32a16 16 0 0 0-16 16v112H64V128h144a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V336a16 16 0 0 0-16-16ZM488 0H360c-21.37 0-32.05 25.91-17 41l35.73 35.73L135 320.37a24 24 0 0 0 0 34L157.67 377a24 24 0 0 0 34 0l243.61-243.68L471 169c15 15 41 4.5 41-17V24a24 24 0 0 0-24-24Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="career" class="h-fit bg-palette3">
+      <div class="page-container">
+        <h1 class="text-5xl font-bold mb-10 text-palette1">Career</h1>
+        <div class="relative w-full p-2 before:timeline-line">
+          <div class="card-wrapper left after:timeline-circle">
+            <div class="timeline-card after:right-arrow">
+              <div class="flex flex-wrap mb-2">
+                <img
+                  src="./images/micron-logo-small.jpg"
+                  alt="Micron Company Logo"
+                  class="h-full w-auto max-w-xs mr-4 mb-2"
+                />
+
+                <div class="w-auto mt-1">
+                  <p class="font-black">Micron Technology Inc, Singapore</p>
+                  <p class="font-black">
+                    Process Integration Engineer (Jul 2021 - Now)
+                  </p>
+                </div>
+              </div>
+              <p class="text-justify">
+                Led cross-functional teams in resolving Micron's 232-layer NAND
+                interconnect yield issues, enabling 10% yield gain within 6
+                month duration. Achieved earlier mature cum yield by 5+ weeks.
+              </p>
+            </div>
+          </div>
+          <div class="card-wrapper right after:timeline-circle">
+            <div class="timeline-card after:left-arrow">
+              <div class="flex flex-wrap mb-2">
+                <img
+                  src="./images/ntu-logo-small.jpg"
+                  alt="NTU Logo"
+                  class="h-full w-auto max-w-xs mr-4 mb-2"
+                />
+
+                <div class="w-auto mt-1">
+                  <p class="font-black">
+                    Nanyang Technological University (NTU)
+                  </p>
+                  <p class="font-black">Bachelor of Engineering (2021)</p>
+                </div>
+              </div>
+              <p class="text-justify">
+                Graduated from School of Materials Science and Engineering (MSE)
+                with Honors (Distinction). Recipient of full ASEAN Scholarship.
+                Dean's list holder for AY 2018-19.
+              </p>
+            </div>
+          </div>
+          <div class="card-wrapper left after:timeline-circle">
+            <div class="timeline-card after:right-arrow">
+              <div class="flex flex-wrap mb-2">
+                <img
+                  src="./images/cynapse-logo-small.jpg"
+                  alt="Cynapse Company Logo"
+                  class="h-full w-auto max-w-xs mr-4 mb-2"
+                />
+
+                <div class="w-auto mt-1">
+                  <p class="font-black">XRVision (Now Cynapse)</p>
+                  <p class="font-black">
+                    Machine Learning Engineer (July - Dec 2020)
+                  </p>
+                </div>
+              </div>
+              <p class="text-justify">
+                Spearheaded the development of weapon detection modules,
+                achieving over 75% accuracy within 3 months. Enhanced in-house
+                person-tracking system by implementing DeepSort. Created image
+                web scraping and augmentation scripts to build vision-based
+                datasets.
+              </p>
+            </div>
+          </div>
+          <div class="card-wrapper right after:timeline-circle">
+            <div class="timeline-card after:left-arrow">
+              <div class="flex flex-wrap mb-2">
+                <img
+                  src="./images/artc-logo-small.jpg"
+                  alt="ARTC Company Logo"
+                  class="h-full w-auto max-w-xs mr-4 mb-2"
+                />
+
+                <div class="w-auto mt-1">
+                  <p class="font-black">ARTC A*Star</p>
+                  <p class="font-black">
+                    Development Engineer (Aug - Dec 2019)
+                  </p>
+                </div>
+              </div>
+              <p class="text-justify">
+                Implemented, trained, and optimized deep learning models for
+                defect detection in 3D printed materials using X-ray CT data.
+                Project featured at SINCE 2019 Conference, showcasing
+                U-Net/Mask-RCNN architectures with an accuracy exceeding 92%.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="h-[calc(100vh-7rem)]">
+      <div class="page-container">
+        <p class="text-5xl font-bold mb-10 text-palette1">Get in touch!</p>
+        <p class="text-2xl font font-bold mb-4">
+          Ready to collaborate? Reach out and let's code something amazing!
+        </p>
+        <p class="md:text-xl mb-4">
+          If you would like to connect with me professionally, i am reachable
+          through Linkedin
+        </p>
+        <a
+          class="btn-primary mb-6"
+          href="https://www.linkedin.com/in/maulana-imam-15b5aa153/"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 50 50"
+            class="fill-current w-8 h-8 mr-2 text-white ml-auto"
+          >
+            <path
+              d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+            ></path>
+          </svg>
+
+          <span class="mr-auto">Connect with me</span>
+        </a>
+        <p class="md:text-xl mb-4">
+          To check my past portfolio and on-going projects, I would recommend
+          checking my github below
+        </p>
+        <a
+          class="btn-secondary"
+          href="https://github.com/maulanaimam123"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 64 64"
+            class="fill-current w-8 h-8 mr-2 ml-auto"
+          >
+            <path
+              d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"
+            ></path>
+          </svg>
+          <span class="mr-auto">My Projects</span>
+        </a>
+      </div>
+    </section>
+
+    <footer
+      class="bg-gradient-main flex items-center justify-center text-white h-28 w-full"
+    >
+      @Alan Putro 2023
+    </footer>
+
+    <a
+      href="#home"
+      class="invisible md:visible fixed h-12 w-12 bg-palette1 border-solid border-4 group border-palette4 hover:border-palette3 rounded-full text-palette4 bottom-8 right-8 hover:-translate-y-1 hover:shadow-lg transition ease-in-out delay-50"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="130"
+        height="130"
+        viewBox="0 0 100 100"
+        class="fill-palette4 mt-1 ml-1 group-hover:fill-palette3"
+      >
+        <path
+          d="M12 3C12.2652 3 12.5196 3.10536 12.7071 3.29289L19.7071 10.2929C20.0976 10.6834 20.0976 11.3166 19.7071 11.7071C19.3166 12.0976 18.6834 12.0976 18.2929 11.7071L13 6.41421V20C13 20.5523 12.5523 21 12 21C11.4477 21 11 20.5523 11 20V6.41421L5.70711 11.7071C5.31658 12.0976 4.68342 12.0976 4.29289 11.7071C3.90237 11.3166 3.90237 10.6834 4.29289 10.2929L11.2929 3.29289C11.4804 3.10536 11.7348 3 12 3Z"
+        />
+      </svg>
+    </a>
+  </body>
+</html>

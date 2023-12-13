@@ -13,10 +13,34 @@
     ></script>
     <script src="./index.js"></script>
   </head>
-  <body>
+  <body class="relative">
     <section id="home" class="bg-gradient-main h-fit xl:h-screen">
       <div class="page-container">
-        <div class="flex-row sm:flex justify-around align-center mb-4">
+        <div
+          class="navbar flex-row hidden sm:hidden justify-around align-center mb-4"
+        >
+          <a
+            href="#home"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >BIO</a
+          >
+          <a
+            href="#project"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >PROJECT</a
+          >
+          <a
+            href="#career"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >CAREER</a
+          >
+          <a
+            href="#contact"
+            class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
+            >CONTACT</a
+          >
+        </div>
+        <div class="flex invisible sm:visible justify-around align-center mb-4">
           <a
             href="#home"
             class="block font-black hover:text-palette4 transition ease-in-out delay-100 text-2xl mb-2 mx-5"
@@ -429,9 +453,40 @@
       @Alan Putro 2023
     </footer>
 
+    <button
+      class="hamburger-btn overflow-hidden visible sm:invisible absolute h-12 w-12 group rounded-lg text-black top-8 right-8 hover:shadow-lg transition ease-in-out delay-50"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="50"
+        height="50"
+        viewBox="0 0 30 30"
+        class="hamburger-icon fill-black mt-1 ml-1 group-hover:fill-palette4"
+      >
+        <path
+          d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"
+        ></path>
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        width="50"
+        height="50"
+        viewBox="0 0 60 60"
+        class="x-icon hidden fill-black mt-1 ml-1 group-hover:fill-palette4"
+      >
+        <path
+          d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"
+        ></path>
+      </svg>
+    </button>
+
     <a
       href="#home"
-      class="invisible fixed h-12 w-12 bg-palette1 border-solid border-4 group border-palette4 hover:border-palette3 rounded-full text-palette4 bottom-8 right-8 hover:-translate-y-1 hover:shadow-lg transition ease-in-out delay-50"
+      class="go-up-btn overflow-hidden invisible fixed h-12 w-12 bg-palette1 border-solid border-4 group border-palette4 hover:border-palette3 rounded-full text-palette4 bottom-8 right-8 hover:-translate-y-1 hover:shadow-lg transition ease-in-out delay-50"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
